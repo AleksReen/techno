@@ -1,0 +1,46 @@
+.section-employeers {}
+
+.section-employeers__row {
+    margin: 0px;
+}
+
+.section-employeers__text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.employeer {
+    padding-bottom: 30px;
+}
+
+.employeer__name {
+    font-weight: bolder;
+}
+
+.employeer__title {
+    font-weight: bolder;
+}
+
+.employeer__work-place {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgba(232, 69, 69, 1);
+}
+
+.employeer__description {
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.employeer__button-conteiner {}
+
+.employeer__button {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #c6cacc;
+}

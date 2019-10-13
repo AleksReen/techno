@@ -1,0 +1,63 @@
+.footer__main {
+    background-color: #51514f;
+    color: white;
+}
+
+.footer__text {
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.footer__desc {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer__row {
+    padding-top: 30px;
+}
+
+.footer__button-conteiner {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer__button {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #c6cacc;
+}
+
+.developer {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.developer__text {
+    text-align: center;
+    color: white;
+}
+
+.developer__toTop {
+    text-align: center;
+}
+
+.call_btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #e84545;
+    border: none;
+    outline: none;
+    z-index: 999;
+}
+
+.call_btn:hover {
+    background-color: #bc3232;
+}

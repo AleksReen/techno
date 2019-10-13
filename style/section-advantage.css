@@ -1,0 +1,29 @@
+.section-advantage{
+}
+
+.section-advantage__text{
+	padding-bottom: 35px;
+	padding-top: 35px;
+	text-align: center;
+	font-size: 35px;
+}
+
+.section-advantage__row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.advantage{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.advantage__header-icon{
+	font-size: 70px;
+	color: #e84545;
+}
+.advantage__header{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.advantage__header-description{
+	font-size: 14px;
+}

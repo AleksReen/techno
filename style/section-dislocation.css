@@ -1,0 +1,14 @@
+.section-dislocation {}
+
+.section-dislocation__text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.map {
+    width: 500px;
+    height: 450px;
+    position: relative;
+}
