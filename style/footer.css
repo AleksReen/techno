@@ -1,6 +1,24 @@
 .footer__main {
-    background-color: #51514f;
+    background-color: #346D9A;
     color: white;
+}
+
+.mts .contacts_icon {
+    background-position: 0 0px;
+}
+
+.vel .contacts_icon {
+    background-position: 0 -16px;
+}
+
+.contacts_icon {
+    display: inline-block;
+    margin: -2px 5px 0 0;
+    height: 16px;
+    width: 16px;
+    background: url('../img/contacts_icons.png') no-repeat;
+    vertical-align: middle;
+    content: '';
 }
 
 .footer__text {
@@ -11,11 +29,11 @@
 
 .footer__desc {
     text-align: center;
-    padding-bottom: 30px;
 }
 
 .footer__row {
-    padding-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .footer__button-conteiner {

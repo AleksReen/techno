@@ -5,12 +5,27 @@
 
 @media only screen and (max-width: 1200px) {}
 
+@media only screen and (max-width: 1152px) {
+    .section-assort__title {
+        min-height: 50px;
+    }
+    .advantage__header {
+        min-height: 50px;
+    }
+}
+
 
 /* Medium Devices, Desktops */
 
 @media only screen and (max-width: 992px) {
     .header__conteiner-link {
         padding: 0 20px;
+    }
+    .section-assort__title {
+        min-height: auto;
+    }
+    .advantage__header {
+        min-height: auto;
     }
 }
 
@@ -96,20 +111,25 @@
         background: #d9534f;
         color: white;
     }
+
+    .advantage__header-icon{
+        font-size: 30px;
+    }
+
     .header__title {
-        font-size: 42px;
+        font-size: 30px;
     }
     .section-advantage__text {
-        font-size: 42px;
+        font-size: 30px;
     }
     .section-projects__text {
-        font-size: 42px;
+        font-size: 30px;
     }
     .header__title-text {
         font-size: 16px;
     }
     .section-employeers__text {
-        font-size: 42px;
+        font-size: 30px;
     }
 }
 
@@ -158,6 +178,9 @@
     }
     .section-employeers__text {
         font-size: 42px;
+    }
+    .advantage__header-icon{
+        font-size: 30px;
     }
 }
 

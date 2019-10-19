@@ -5,10 +5,10 @@
 }
 
 .section-employeers__text {
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-bottom: 30px;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .employeer {

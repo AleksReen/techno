@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/phone.css" />
     <link rel="stylesheet" href="style/section-advantage.css">
     <link rel="stylesheet" href="style/section-assort.css">
     <link rel="stylesheet" href="style/section-employeers.css">
@@ -51,6 +52,25 @@
         </nav>
 
     </header>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row section-phone__text">
+                <div class="col-md-6">
+                    <p class="vel">
+                        <span class="contacts_icon"></span>
+                        +375(29)-666-14-95 
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p class="mts">
+                        <span class="contacts_icon"></span>
+                        +375(29)-543-91-00 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <section id="works" class="section-assort ">
@@ -118,9 +138,9 @@
                     <h4 class="section-assort__title">Удаление деревьев</h4>
                     <div class="assort ">
                         <div class="assort__image-wrap ">
-                            <div class="assort__description ">
+                            <div id="section_wood" class="assort__description ">
                                 <p>Мы поможем удалить сухое или аварийное дерево в стеснённых условиях или произвести кронирование дерева.</p>
-                                <p>Подробнее...</p>
+                                <button class="btn btn-info anchor" href="#wood">Подробнее...</button>
                             </div>
                         </div>
                         <img src="img/as8.jpg " class="img-responsive assort__img " alt="workItem ">
@@ -131,9 +151,9 @@
                     <h4 class="section-assort__title">Такелажные работы</h4>
                     <div class="assort ">
                         <div class="assort__image-wrap ">
-                            <div class="assort__description ">
+                            <div id="section_rigging" class="assort__description ">
                                 <p>Подъем груза на высоту может понадобиться как и в строительстве, так и при решении каких-либо бытовых задач.</p>
-                                <p>Подробнее...</p>
+                                <button class="btn btn-info anchor" href="#rigging">Подробнее...</button>
                             </div>
                         </div>
                         <img src="img/as3.jpg " class="img-responsive assort__img" alt="workItem ">
@@ -144,9 +164,9 @@
                     <h4 class="section-assort__title">Сварочные работы</h4>
                     <div class="assort ">
                         <div class="assort__image-wrap ">
-                            <div class="assort__description ">
+                            <div id="section_welding" class="assort__description ">
                                 <p>Сварка на высоте с привлечением промышленных альпинистов может выполняться в жилых, промышленных, офисных, административных зданиях.</p>
-                                <p>Подробнее...</p>
+                                <button class="btn btn-info anchor" href="#welding">Подробнее...</button>
                             </div>
                         </div>
                         <img src="img/as5.jpg " class="img-responsive assort__img " alt="workItem ">
@@ -157,9 +177,9 @@
                     <h4 class="section-assort__title">Другие виды работ</h4>
                     <div class="assort ">
                         <div class="assort__image-wrap ">
-                            <div class="assort__description ">
+                            <div id="section_other" class="assort__description ">
                                 <p>Другие виды работ и услуг выполняемых методом промышленного альпинизма.</p>
-                                <p>Подробнее...</p>
+                                <button class="btn btn-info anchor" href="#other">Подробнее...</button>
                             </div>
                         </div>
                         <img src="img/as6.jpg " class="img-responsive assort__img " alt="workItem ">
@@ -178,7 +198,7 @@
 
                 <div class="col-md-12">
                         <div class="col-md-6 col-sm-12 section-assort__grid ">
-                                <div style="padding: 0px 30px 0px 30px">
+                                <div class="assort__container">
                                         <h4 id="mounting" class="section-assort__title alert-info">Виды монтажных и строительно-монтажных работ</h4>
                                         <p>Все без исключения виды высотных монтажных работ. 
                                         От кондиционеров и небольших конструкций до сложного монтажа тяжелых и крупных объектов.</p>
@@ -195,7 +215,7 @@
                                 
                             </div>
                             <div class="col-md-6 col-sm-12 section-assort__grid ">
-                                <div style="padding: 0px 30px 0px 30px">
+                                <div class="assort__container">
                                         <h4 id="electrical" class="section-assort__title alert-info">Электромонтажные работы</h4>  
                                         <p>Наши специалисты быстро и качественно произведут электромонтажные работы в жилых, офисных и производственных помещениях по доступной цене:</p>
                                         <ul class="list-group">
@@ -215,7 +235,7 @@
 
                 <div class="col-md-12">
                         <div class="col-md-6 col-sm-12 section-assort__grid ">
-                                <div style="padding: 0px 30px 0px 30px">
+                                <div class="assort__container">
                                         <h4 id="painting" class="section-assort__title alert-info">Фасадные и малярные работы</h4>  
                                         <p>Наши сотрудники не только профессиональные альпинисты, но еще и квалифицированные штукатуры, 
                                             маляры, электрики. Все работы проводятся при помощи специального снаряжения, которое не оставляет после себя никаких повреждений.</p>
@@ -232,7 +252,7 @@
                             </div>
         
                             <div class="col-md-6 col-sm-12 section-assort__grid ">
-                                    <div style="padding: 0px 30px 0px 30px">
+                                    <div class="assort__container">
                                             <h4 id="roofing" class="section-assort__title alert-info">Кровельные работы</h4>  
                                             <p>Мы делаем кровельные работы на профессиональном уровне круглогодично, поэтому вы можете заказать работы под ключ даже зимой, не дожидаясь весны или лета. У нас есть все необходимое оборудование и фирменная одежда на все сезоны.</p>
                                             <ul class="list-group">
@@ -251,8 +271,8 @@
                 
                         <div class="col-md-12">
                                 <div class="col-md-6 col-sm-12 section-assort__grid ">
-                                        <div style="padding: 0px 30px 0px 30px">
-                                                <h4 class="section-assort__title alert-info">Удаление деревьев</h4>  
+                                        <div class="assort__container">
+                                                <h4 id="wood" class="section-assort__title alert-info">Удаление деревьев</h4>  
                                                 <p>Мы удаляем сложные и аварийные деревья в ограниченном пространстве, в условиях плотной городской и загородной застройки, там где с этой задачей не может справится автовышка.</p>
                                                 <ul class="list-group">
                                                         <li class="list-group-item">Кронирование дерева</li>
@@ -264,8 +284,8 @@
                                     </div>
         
                                     <div class="col-md-6 col-sm-12 section-assort__grid ">
-                                            <div style="padding: 0px 30px 0px 30px">
-                                                    <h4 class="section-assort__title alert-info">Такелажные работы</h4>  
+                                            <div class="assort__container">
+                                                    <h4 id="rigging" class="section-assort__title alert-info">Такелажные работы</h4>  
                                                     <p>Наши промышленные альпинисты аккуратно и быстро подымут груз на любой этаж. Cовременное оборудование позволяет совершить подъем груза аккуратно, быстро, недорого и без всяких рисков.</p>
                                                     <ul class="list-group">
                                                             <li class="list-group-item">Подъем груза на этаж через окно</li>
@@ -281,8 +301,8 @@
                                 <div class="col-md-12">
 
                                         <div class="col-md-6 col-sm-12 section-assort__grid ">
-                                                <div style="padding: 0px 30px 0px 30px">
-                                                        <h4 class="section-assort__title alert-info">Сварочные работы</h4>  
+                                                <div class="assort__container">
+                                                        <h4 id="welding" class="section-assort__title alert-info">Сварочные работы</h4>  
                                                         <p>Мы выполним сварочные работы профессионально и качественно в короткие сроки. Мы имеем все необходимое оборудование для проведения сварочных работ на высоте. Данные работы будут выполнены альпинистами, которые также являются и профессиональными сварщиками.</p>
                                                         <ul class="list-group">
                                                                 <li class="list-group-item">Сварка в труднодоступных местах</li>
@@ -292,8 +312,8 @@
                                             </div>
                 
                                             <div class="col-md-6 col-sm-12 section-assort__grid ">
-                                                    <div style="padding: 0px 30px 0px 30px">
-                                                            <h4 class="section-assort__title alert-info">Другие виды работ</h4>  
+                                                    <div class="assort__container">
+                                                            <h4 id="other" class="section-assort__title alert-info">Другие виды работ</h4>  
                                                             <p>Кроме всего прочего наши промышленные альпинисты помогут выполнить и ряд других работ, где без специального снаряжения не обойтись.</p>
                                                             <ul class="list-group">
                                                                     <li class="list-group-item">Мойка и очистка фасада</li>
@@ -308,8 +328,8 @@
 
                                 <div class="col-md-12">
                                     
-                                    <div  style="padding: 0px 30px 0px 30px">
-                                        <div class="alert-success" style="text-align: center;">*Стоимость на монтажные работы в каждом случае рассчитывается индивидуально. 
+                                    <div class="assort__container">
+                                        <div class="alert-success assort__inf">*Стоимость на монтажные работы в каждом случае рассчитывается индивидуально. 
                                                 Общая цена зависит от объема и сложности работ.
                                             </div>
                                         </div>
@@ -338,9 +358,11 @@
 
                 <div class="col-md-3 col-sm-6 ">
                     <div class="advantage ">
-                        <i class="fa fa-car advantage__header-icon " aria-hidden="true "></i>
-                        <h3 class="advantage__header ">Выезд на осмотр объекта</h3>
-                        <p class="advantage__header-description ">Наш квалифицированный специалист готов приехать на осмотр для решения Вашей задачи.</p>
+                        <i class="fa fa-search advantage__header-icon " aria-hidden="true "></i>
+                        <h3 class="advantage__header ">Oсмотр объекта</h3>
+                        <p class="advantage__header-description ">Наш квалифицированный специалист готов приехать на осмотр для решения Вашей задачи.
+                                Работаем как с физическими так и с юридическими лицами.
+                        </p>
                     </div>
                 </div>
 
@@ -357,7 +379,7 @@
                         <i class="fa fa-thumbs-up advantage__header-icon " aria-hidden="true "></i>
                         <h3 class="advantage__header ">Качество и
                                 надежность </h3>
-                        <p class="advantage__header-description ">Мы имеем большой опыт в решении самых разных инженерных задач. Даем на нашу работу гарантию. Используем исключительно самое надежное снаряжение.</p>
+                        <p class="advantage__header-description ">Мы имеем большой опыт в решении самых разных инженерных задач. Даем на нашу работу гарантию <b>5 лет</b>. Используем исключительно самое надежное снаряжение.</p>
                     </div>
                 </div>
 
@@ -372,6 +394,12 @@
                 <div class="section-employeers__text">
                     О Компании
                 </div>
+                <p style="text-align:justify; padding-bottom: 30px; text-indent: 30px">
+                    <span style="font-weight: bold;">ЧПУП "ТехноКрэйдИнвест"</span> занимается высотными и кровельными работами более пяти лет. 
+                    Гарантия на все работы составляет <b>5 лет</b> со дня подписания акта сдачи-приёмки выполненных работ. Работаем как с 
+                    физическими так и с юридическими лицами. Все специалисты <b>аттестованны</b> и являются профессионалами своего дела, потому что 
+                    высота для нас - это родная Стихия. Мы те, за чьё качество не стыдно и другим посоветовать не боязно!
+                </p>
             </div>
         </div>
     </section>
@@ -382,8 +410,10 @@
                 <div class="row footer__row ">
                     <div class="col-md-4 footer__col ">
                         <h4 class="footer__text ">Адрес</h4>
-                        <p class="footer__desc ">
-                            Могилев, Витебский просп., 4
+                        <p class="footer__desc" style="padding-bottom: 30px">
+                            213131, Могилёвский р-н, станция Голынец, здание зубопротезной лаборатории
+                            <br>
+                            УНП: 790948677
                         </p>
                     </div>
                     <div class="col-md-4 ">
@@ -405,8 +435,13 @@
                     </div>
                     <div class="col-md-4 ">
                         <h4 class="footer__text ">Телефон</h4>
-                        <p class="footer__desc ">
-                            +375(29)-544-73-24 МТС
+                        <p class="footer__desc vel">
+                            <span class="contacts_icon"></span>
+                            +375(29)-666-14-95 
+                        </p>
+                        <p class="footer__desc mts">
+                            <span class="contacts_icon"></span>
+                            +375(29)-543-91-00 
                         </p>
                     </div>
                 </div>
