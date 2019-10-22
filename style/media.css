@@ -120,7 +120,10 @@
         font-size: 30px;
     }
     .section-advantage__text {
-        font-size: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        font-size: 25px;
     }
     .section-projects__text {
         font-size: 30px;
@@ -129,7 +132,10 @@
         font-size: 16px;
     }
     .section-employeers__text {
-        font-size: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        font-size: 25px;
     }
 }
 

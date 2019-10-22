@@ -5,6 +5,7 @@
 }
 
 .section-employeers__text {
+    margin: 0px;
     padding-bottom: 30px;
     text-align: center;
     font-size: 30px;
